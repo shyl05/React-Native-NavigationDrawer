@@ -2,12 +2,12 @@
 import * as React from 'react';
 import {Layout, Text} from '@ui-kitten/components';
 
-function AboutScreen({navigation}) {
+function ProfileScreen({navigation}) {
     return (
         <Layout style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-            <Text category='h1'>About</Text>
+            <Text category='h1'>Profile</Text>
         </Layout>
     );
 }
 
-export default AboutScreen;
+export default ProfileScreen;

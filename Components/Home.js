@@ -1,12 +1,12 @@
 /* eslint-disable prettier/prettier */
 import * as React from 'react';
-import {View, Text , Button} from 'react-native';
+import {Layout, Text } from '@ui-kitten/components';
 
 function HomeScreen({navigation}){
     return (
-        <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-            <Text>Home Screen</Text>
-        </View>
+        <Layout style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+            <Text category='h1'>HOME</Text>
+        </Layout>
     );
 }
 
